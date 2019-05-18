@@ -1,5 +1,11 @@
+from git_requests import GitRequester
+
+
 def main():
-    print("Hello general Kenobi")
+    git_requester = GitRequester("https://api.github.com", "larsegholm", "EntropyTest")
+    print(git_requester)
+    git_requester.get_commits()
+
     return
 
 
