@@ -1,0 +1,3 @@
+class GitGetter:
+
+    outdir = "../repos/"
