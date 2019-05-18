@@ -25,7 +25,7 @@ class GitApi:
         accept_header = "application/vnd.github." + self.__git_api_version + ".json"
         package = req.get(request_url, accept_header)
         assert(package.status_code == 200)
-        return [commit["sha"] for commit in package.json()] # Hmmm, refine this when doing analysis
+        return [commit["sha"] for commit in package.json()]  # Hmmm, refine this when doing analysis
 
     def get_diff(self, commit_sha):
         request_url = self.__form_request(["commits", commit_sha])

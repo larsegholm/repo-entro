@@ -11,8 +11,12 @@ class GitDiff:
     def __init__(self, diff_text):
         self.__additions = []
         self.__removals = []
-        self.__change_regex = re.compile(r"@@\s+\-\d+,\d+ \+\d+,\d+\s+@@$")
+        self.__change_regex = re.compile(r"@@\s+\-[\d,]+ \+[\d,]+\s+@@$")
         self.__parse_diff(diff_text)
+
+    def __str__(self):
+        return "Diff with {n_additions} additions and {n_removals} removals".format(
+            n_additions=len(self.additions()), n_removals=len(self.removals()))
 
     def __parse_diff(self, text):
         split_text = text.split("\n")
@@ -21,6 +25,7 @@ class GitDiff:
         for line in split_text:
             if self.__change_start(line):
                 reached_change = True
+                continue
 
             if not reached_change:
                 continue
