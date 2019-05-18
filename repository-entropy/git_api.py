@@ -5,9 +5,9 @@ class GitApi:
 
     # Need to create some integration tests for this
     __git_api_version = "v3"
-    __git_url = ""
-    __owner = ""
-    __repo = ""
+    __git_url = None
+    __owner = None
+    __repo = None
 
     def __init__(self, git_url, owner, repo):
         self.__git_url = git_url

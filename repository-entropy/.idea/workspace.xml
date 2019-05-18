@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96882b5d-7177-43fe-a5b2-17f091edb85b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/git_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_git_diff.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/git_requests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/git_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/git_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/git_diff.py" beforeDir="false" afterPath="$PROJECT_DIR$/git_diff.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,35 +23,11 @@
               <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/entropy_calculator.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="14" selection-start-line="14" selection-end-line="14" />
-                  <folding>
-                    <element signature="e#0#21#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/git_api.py">
+            <entry file="file://$PROJECT_DIR$/git_diff.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/test_entropy_calculator.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="20" selection-start-line="20" selection-end-line="20" />
-                  <folding>
-                    <element signature="e#0#6#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="315">
+                  <caret line="43" column="17" lean-forward="true" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -59,11 +36,23 @@
       </split-first>
       <split-second>
         <leaf>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/main.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="170">
                   <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/test_git_diff.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="561">
+                  <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+                  <folding>
+                    <element signature="e#0#29#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -76,8 +65,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Unit Test" />
-        <option value="Python Script" />
         <option value="Setup Script" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -94,8 +83,10 @@
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/git_caller.py" />
         <option value="$PROJECT_DIR$/git_requests.py" />
-        <option value="$PROJECT_DIR$/git_api.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/git_api.py" />
+        <option value="$PROJECT_DIR$/git_diff.py" />
+        <option value="$PROJECT_DIR$/test_git_diff.py" />
       </list>
     </option>
   </component>
@@ -147,7 +138,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python tests.Unittests for test_git_diff.TestGitDiff">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="repository-entropy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -204,7 +195,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_entropy_calculator.EntropyCalculatorTest.test_something" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_git_diff.TestGitDiff" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="repository-entropy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -214,11 +205,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_entropy_calculator.EntropyCalculatorTest.test_something&quot;" />
+      <option name="_new_target" value="&quot;test_git_diff.TestGitDiff&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test_entropy_calculator.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_git_diff.TestGitDiff.test_additions" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="repository-entropy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -228,17 +219,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_entropy_calculator.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_git_diff.TestGitDiff.test_additions&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_git_diff.TestGitDiff" />
+        <item itemvalue="Python tests.Unittests for test_git_diff.TestGitDiff.test_additions" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.setup" />
         <item itemvalue="Python tests.Unittests for test_entropy_calculator.EntropyCalculatorTest" />
-        <item itemvalue="Python tests.Unittests in test_entropy_calculator.py" />
-        <item itemvalue="Python tests.Unittests for test_entropy_calculator.EntropyCalculatorTest.test_something" />
       </list>
     </recent_temporary>
   </component>
@@ -256,12 +247,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_entropy_calculator_EntropyCalculatorTest_test_something - 2019.05.18 at 11h 40m 56s.xml">
-      <configuration name="Unittests for test_entropy_calculator.EntropyCalculatorTest.test_something" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_entropy_calculator_EntropyCalculatorTest_test_something - 2019.05.18 at 11h 56m 04s.xml">
-      <configuration name="Unittests for test_entropy_calculator.EntropyCalculatorTest.test_something" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_entropy_calculator_EntropyCalculatorTest - 2019.05.18 at 11h 56m 19s.xml">
       <configuration name="Unittests for test_entropy_calculator.EntropyCalculatorTest" configurationId="tests" />
     </history-entry>
@@ -280,6 +265,18 @@
     <history-entry file="Unittests_for_test_entropy_calculator_EntropyCalculatorTest - 2019.05.18 at 12h 01m 25s.xml">
       <configuration name="Unittests for test_entropy_calculator.EntropyCalculatorTest" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_test_git_diff_TestGitDiff - 2019.05.18 at 16h 57m 14s.xml">
+      <configuration name="Unittests for test_git_diff.TestGitDiff" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_git_diff_TestGitDiff_test_additions - 2019.05.18 at 17h 31m 22s.xml">
+      <configuration name="Unittests for test_git_diff.TestGitDiff.test_additions" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_git_diff_TestGitDiff - 2019.05.18 at 17h 31m 26s.xml">
+      <configuration name="Unittests for test_git_diff.TestGitDiff" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_git_diff_TestGitDiff - 2019.05.18 at 17h 31m 56s.xml">
+      <configuration name="Unittests for test_git_diff.TestGitDiff" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -289,12 +286,12 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16596417" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Python Console" visible="true" weight="0.25568798" />
+      <window_info anchor="bottom" id="Python Console" weight="0.15384616" />
       <window_info anchor="bottom" id="Terminal" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30119178" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2751896" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -305,16 +302,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test_entropy_calculator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#6#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/entropy_calculator.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -339,17 +326,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/git_api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        <state relative-caret-position="102">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/test_entropy_calculator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#6#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_git_diff.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/git_diff.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="43" column="17" lean-forward="true" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
         </state>
       </provider>
     </entry>
